@@ -11,7 +11,7 @@ type: user
 | 项目 | 内容 |
 |------|------|
 | 中文姓名 | 王昕睿 |
-| 英文姓名 | Xinrui Wang |
+| 英文姓名 | Claudia Xinrui Wang |
 | 大学 | The University of Hong Kong |
 | 专业 | BBA(ADA) - Faculty of Business and Economics |
 | 邮箱 | wxr62442@connect.hku.hk |

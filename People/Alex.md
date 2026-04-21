@@ -11,7 +11,7 @@ type: user
 | 项目     | 内容                            |
 | -------- | ------------------------------- |
 | 中文姓名 | 谢理城                          |
-| 英文姓名 | Licheng Xie                     |
+| 英文姓名 | Alex Licheng Xie                     |
 | 大学     | Chinese University of Hong Kong |
 | 邮箱     | 1155246441@link.cuhk.edu.hk     |
 | 电话     | +86 13590499368                 |
