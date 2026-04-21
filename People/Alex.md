@@ -8,17 +8,17 @@ type: user
 
 ## 基本信息
 
-| 项目 | 内容 |
-|------|------|
-| 中文姓名 | 谢理城 |
-| 英文姓名 | Licheng Xie |
-| 大学 | Chinese University of Hong Kong |
-| 邮箱 | 1155246441@link.cuhk.edu.hk |
-| 电话 | +86 13590499368 |
+| 项目     | 内容                            |
+| -------- | ------------------------------- |
+| 中文姓名 | 谢理城                          |
+| 英文姓名 | Licheng Xie                     |
+| 大学     | Chinese University of Hong Kong |
+| 邮箱     | 1155246441@link.cuhk.edu.hk     |
+| 电话     | +86 13590499368                 |
 
 ## 证件
 
-- 学生证：[点击查看](./Alex_student_id.pdf)
+- 学生证：[点击查看](./Alex_student_card.pdf)
 - 简历：[点击查看](./Alex_resume.pdf)
 
 ## 备注
