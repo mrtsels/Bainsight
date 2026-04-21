@@ -1,60 +1,60 @@
-# Bain Case Competition - Team Repository
+# Bain 案例竞赛 - 团队仓库
 
-## Team Overview
+## 团队简介
 
-We are a four-person team participating in the Bain Case Competition. This repository organizes all project materials, research, and deliverables.
+我们是一支四人小队，参与 Bain 案例竞赛。本仓库用于整理所有项目资料、研究成果和最终交付物。
 
-## Repository Structure
+## 仓库结构
 
 ```
-├── People/              # Team member profiles and contact info
-├── Drafts/              # Draft documents and work-in-progress materials
-├── Finals/              # Final deliverables and submission materials
-├── Plans/               # Project plans, timelines, and meeting notes
-├── Preprocessings/      # Data preprocessing scripts and outputs
-├── Reports/             # Analysis reports and presentations
-├── Scripts/             # Code scripts for data analysis and modeling
-└── Tasks/               # Task tracking and assignment documents
+├── People/              # 队员信息与联系方式
+├── Drafts/              # 草稿与工作文档
+├── Finals/              # 最终提交材料
+├── Plans/               # 项目计划与会议记录
+├── Preprocessings/      # 数据预处理脚本与处理结果
+├── Reports/             # 分析报告与演示材料
+├── Scripts/             # 数据分析与建模代码
+└── Tasks/               # 任务分配与进度追踪
 ```
 
-## Directory Details
+## 目录说明
 
 ### `People/`
-Team member information including roles and responsibilities.
+队员信息，包括姓名、角色分工和联系方式。
 
 ### `Drafts/`
-Work-in-progress documents. Contains preliminary analyses, draft frameworks, and iterative versions of deliverables.
+工作过程中的草稿文档，包括初步分析、框架草稿和迭代版本。
 
 ### `Finals/`
-Final submission materials including polished presentations, final reports, and appendices.
+最终提交材料，包括定稿的演示文稿、报告正文和附录。
 
 ### `Plans/`
-Project planning documents including timeline, meeting notes, and strategic decisions.
+项目规划文档，包括时间线、会议记录和决策备忘。
 
 ### `Preprocessings/`
-Data cleaning, transformation, and feature engineering scripts. Also contains processed datasets ready for analysis.
+数据清洗、转换和特征工程的脚本，也包含已处理好的数据集。
 
 ### `Reports/`
-Analysis outputs including market research, data visualizations, and strategic recommendations.
+分析输出，包括市场研究、数据可视化和战略建议。
 
 ### `Scripts/`
-Analytical code including data processing, statistical modeling, and visualization scripts.
+分析代码，包括数据处理、统计建模和可视化脚本。
 
 ### `Tasks/`
-Task assignments, progress tracking, and to-do lists for team coordination.
+任务分配、进度追踪和待办事项，用于团队协调。
 
-## Collaboration Guidelines
+## 协作规范
 
-- **Branching**: Work on feature branches for major deliverables
-- **Reviews**: All final materials should be reviewed by at least one teammate before moving to `Finals/`
-- **Documentation**: Keep scripts and reports well-documented for team reference
+- **分支策略**：重大交付物使用功能分支开发
+- **交叉审核**：所有最终材料移动到 `Finals/` 前需至少一名队友审核
+- **文档记录**：代码和报告保持良好注释，便于团队查阅
 
-## Getting Started
+## 快速上手
 
-1. Clone this repository
-2. Check `Tasks/` for current assignments
-3. Coordinate via `Plans/` for meeting schedules and notes
+1. 克隆本仓库
+2. 查看 `Tasks/` 了解当前任务分配
+3. 通过 `Plans/` 协调会议安排和记录
 
 ---
 
-*Last updated: 2026-04-21*
+*最后更新：2026-04-21*
