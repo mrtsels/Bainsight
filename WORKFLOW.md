@@ -25,8 +25,8 @@
 ### Phase 1：Case 接手
 
 1. 将 case PDF 放入 `Drafts/case_original.pdf`
-2. 在 `Plans/meeting_notes.md` 记录首次讨论要点
-3. 明确任务分工，编辑 `Tasks/current_tasks.md`
+2. 在仓库根目录创建 `meeting_notes.md` 记录首次讨论要点
+3. 明确任务分工，编辑根目录的 `TASKS.md`
 
 ### Phase 2：分析框架
 
@@ -74,7 +74,6 @@
 | `Preprocessings/` | 数据处理脚本与结果 | 数据负责 |
 | `Reports/` | 分析报告、图表输出 | 分析负责 |
 | `Scripts/` | 可复用代码 | 代码负责 |
-| `Tasks/` | 任务分配与进度 | 队长 |
 
 ---
 
@@ -89,7 +88,7 @@
 
 ## 状态标记
 
-在 `Tasks/current.md` 中使用状态：
+在根目录的 `TASKS.md` 中使用状态：
 
 - `[ ]` 待开始
 - `[W]` 进行中
