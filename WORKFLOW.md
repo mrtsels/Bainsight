@@ -76,6 +76,32 @@
 - **公司管理层**：战略重点，执行细节，行动导向
 - **企业/case context**：问题诊断，方案可行，逻辑严密
 
+### Storyline 参考框架（来自 Claudia）
+
+**分析线（市场 → 竞争 → 用户 → 战略）**
+- 市场（机会）分析（宏观）
+- 竞争对手研究（中观）
+- 用户洞察（微观）
+- 战略设计（核心）
+
+**执行线（为什么开 → 开多少 → 在哪开 → 怎么开 → 是否可持续）**
+- 市场机会分析 → 开店必要性
+- 规模测算 → 开多少家
+- 区位选择 → 在哪里开
+- 运营/渠道策略 → 怎么开
+- 财务验证 → 是否可持续
+
+### PPT 结构（供参考）
+
+1. **Situational Analysis**：Overview + Customer + Competitor
+2. **Problems & Goal**
+3. **Strategy & Implementation**：Financial Forecast + Risk and Mitigation
+4. **Impact**
+
+> 注：Impact 部分跟策略相关性更高，非个人技能范畴，建议找说明文档融合保存。
+
+---
+
 ### 实战练习
 
 1. 找 2-3 份贝恩官方报告，临摹 2-3 页
