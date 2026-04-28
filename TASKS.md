@@ -21,6 +21,17 @@
 
 ---
 
+## 赛程详细计划
+
+| 日期 | 内容 |
+|------|------|
+| **4/30** | 开题，brainstorm，分头找数据，联系可提供行业 insight 的人 |
+| **5/1 上午** | 开会交流数据，确定选题和方向，确定大概 storyline，分工锚定行业痛点/需求 |
+| **5/2** | 完成 Situational Analysis（Overview + Customer + Competitor）和 Problems & Goal；找行业内人士聊想法；开始着手 Strategy & Implementation |
+| **5/3** | 继续找行业内人士聊想法，完善其他部分 PPT |
+
+---
+
 ## 当前任务 / Current Tasks
 
 ### Phase 0：赛前准备（截止至 4月29日）
