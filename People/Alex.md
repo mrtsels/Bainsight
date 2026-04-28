@@ -23,4 +23,12 @@ type: user
 
 ## 备注
 
-（可填写专业、年级、相关经历等）
+### 技能自述
+
+**角色**：进度把控
+
+**擅长领域**：
+- Data processing（数据处理）
+- Visualization（可视化）
+
+**待提升**：Business sense / Storyline 把控
