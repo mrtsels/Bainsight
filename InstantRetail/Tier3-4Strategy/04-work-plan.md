@@ -2,7 +2,7 @@
 id: 04-work-plan
 type: work-plan
 step: 4
-title: "Work Plan"
+title: "工作方案"
 status: draft
 addresses: "01-problem-definition.md#kq"
 plans_for:
@@ -11,205 +11,205 @@ plans_for:
   - "03-priority-matrix.md#fa-subsidy"
 workstreams:
   - anchor: "04-work-plan.md#ws-a"
-    label: "WS-A: City Portfolio Decisions"
+    label: "WS-A: 城市组合决策"
     focus_area: "03-priority-matrix.md#fa-city"
   - anchor: "04-work-plan.md#ws-b"
-    label: "WS-B: Competitive Constraint Boundaries"
+    label: "WS-B: 竞争约束边界"
     focus_area: "03-priority-matrix.md#fa-competition"
   - anchor: "04-work-plan.md#ws-c"
-    label: "WS-C: Subsidy Precision Opportunity"
+    label: "WS-C: 补贴精准化空间"
     focus_area: "03-priority-matrix.md#fa-subsidy"
 ---
 
-# Step 4: Work Plan
+# Step 4: 工作方案
 
-## Workstream Overview
+## 工作流概览
 
-| Workstream | Focus Area | # Analyses | Effort | Key Dependency |
-|------------|-----------|-------------|--------|---------------|
-| **WS-A: City Portfolio Decisions** | City selection & resource allocation | 5 | 40% | None — data ready |
-| **WS-B: Competitive Constraint Boundaries** | Competition ceiling | 3 | 30% | Web research (subagent) |
-| **WS-C: Subsidy Precision Opportunity** | User quality improvement | 3 | 30% | WS-B scenarios feed into C3 |
+| 工作流 | 对应焦点领域 | 分析数量 | 工作量 | 关键依赖 |
+|--------|-------------|---------|--------|---------|
+| **WS-A: 城市组合决策** | 城市选择与资源配置 | 5 | 40% | 无 — 数据已完备 |
+| **WS-B: 竞争约束边界** | 竞争天花板 | 3 | 30% | 网络研究（子任务） |
+| **WS-C: 补贴精准化空间** | 用户质量提升 | 3 | 30% | WS-B 情景输出→C3 |
 
-**Total analyses: 11** | **Deadline: End of May 3** | **Review gate: May 4**
+**分析总数: 11** | **截止日期: 5月3日** | **审核门控: 5月4日**
 
 ---
 
-## Critical Path
+## 关键路径
 
 ```
-WS-A (parallel analyses) ──────────────────→ AX-A4 EBIT Scenario ──────────────────┐
-                                                                                   │
-WS-B: Research ─→ AX-B1+B2 ─→ AX-B3 Competitive Scenarios ─────────────────────┼──▶ Step 5 Findings
-                                                                                   │
-WS-C: AX-C1 ─→ AX-C2 ─→ AX-C3 Subsidy Scenarios (feeds on WS-B output) ─────────┘
+WS-A（并行分析）────────────────→ AX-A4 EBIT情景模型 ────────────────┐
+                                                                              │
+WS-B: 研究 ─→ AX-B1+B2 ─→ AX-B3 竞争情景 ──────────────────────────┼──▶ Step 5 结论输出
+                                                                              │
+WS-C: AX-C1 ─→ AX-C2 ─→ AX-C3 补贴情景（依赖WS-B输出）────────────┘
 ```
 
-**Gating rule**: AX-A4 (EBIT scenario model) gates the final recommendation. AX-B3 gates AX-C3 (subsidy reallocation scenarios need competitive ceiling inputs).
+**门控规则**: AX-A4（EBIT情景模型）和 AX-B3（竞争情景）是门控分析。AX-C3 依赖 AX-B3（补贴重分配情景需要竞争天花板输入）。
 
 ---
 
-## WS-A: City Portfolio Decisions
+## WS-A: 城市组合决策
 
-### AX-A1: 10-City Comparative Financial Analysis
-- **Question**: Which cities have the best/worst unit economics and why?
-- **Approach**: Cross-sectional comparison of all 10 cities on AOV, fulfillment cost, subsidy, cost/AOV, high-value user %, large supermarket %, category mix
-- **Data**: 10-city dataset in 01-problem-definition.md
-- **Data Status**: ✅ Available
-- **Output**: City ranking table + 2×2 matrix (AOV × Cost/AOV)
-- **Hypothesis**: C3/C7/C8 are best-in-class on different dimensions; C9/C10/C4 are structurally disadvantaged
-- **Priority**: P1
-- **Dependencies**: None
+### AX-A1: 10城市比较财务分析
+- **问题**: 哪些城市单位经济最好/最差？为什么？
+- **方法**: 10城横截面对比——AOV、履约成本、补贴、成本/AOV、高价值用户占比、品类结构
+- **数据**: 01-problem-definition.md 中的10城数据集
+- **数据状态**: ✅ 完备
+- **输出**: 城市排名表 + 2×2矩阵（AOV × 成本/AOV）
+- **假设**: C3/C7/C8为最佳；C9/C10/C4为结构性劣势
+- **优先级**: P1
+- **依赖**: 无
 
-### AX-A2: Three Hemorrhage-Cities Profit Path Analysis
-- **Question**: How does each of the 3 priority cities (Quanzhou/Huizhou/Weihai) achieve EBIT+? Are the paths different?
-- **Approach**: Unit economics decomposition per city; identify primary EBIT driver
-- **Data**: 01-problem-definition.md (city-level metrics)
-- **Data Status**: ✅ Available
-- **Output**: 3-city comparison table; EBIT driver attribution
-- **Hypothesis**: Quanzhou wins via large supermarket depth; Huizhou via scale; Weihai via high AOV. Three different paths = "replicable model" requires three playbooks
-- **Priority**: P1
-- **Dependencies**: AX-A1 (can run in parallel)
+### AX-A2: 三大止血城市盈利路径分析
+- **问题**: 泉州/惠州/威海各自靠什么实现EBIT+？路径是否相同？
+- **方法**: 各城市单位经济分解；识别主要EBIT驱动因子
+- **数据**: 01-problem-definition.md（城市级指标）
+- **数据状态**: ✅ 完备
+- **输出**: 3城对比表；EBIT驱动因子归因
+- **假设**: 泉州靠大超深度；惠州靠规模；威海靠高AOV——三条不同路径 = 需要三种独立 playbook
+- **优先级**: P1
+- **依赖**: AX-A1（可并行）
 
-### AX-A3: Selective Contraction Cost-Benefit Analysis
-- **Question**: What fixed cost savings and subsidy reduction would result from exiting or shrinking C9/C10/C4/C5?
-- **Approach**: Estimate annual loss per city; model savings from exiting (fixed cost allocation relief + subsidy elimination); sensitivity on partial vs. full exit
-- **Data**: 01-problem-definition.md (annual loss estimates)
-- **Data Status**: ✅ Available (but loss figures are estimated, not actual)
-- **Output**: Savings range table (partial / full exit); recommended exit sequencing
-- **Hypothesis**: Full exit from 2 worst cities saves ~3,000万 annually; partial exit of 4 evaluation cities saves ~2,000万
-- **Priority**: P1
-- **Dependencies**: AX-A1 (can run in parallel)
+### AX-A3: 选择性收缩成本收益分析
+- **问题**: 退出或收缩C9/C10/C4/C5能节省多少固定成本和补贴？
+- **方法**: 估算各城市年亏损；建模退出节省（固定成本分摊减免 + 补贴节省）；区分部分退出/完全退出的敏感性
+- **数据**: 01-problem-definition.md（年亏损估算）
+- **数据状态**: ✅ 完备（但亏损数为估算，非实际）
+- **输出**: 节省区间表（部分/完全退出）；建议退出时序
+- **假设**: 完全退出2个最差城市节省~3,000万/年；部分退出4个评估城市节省~2,000万
+- **优先级**: P1
+- **依赖**: AX-A1（可并行）
 
-### AX-A4: 3+3+4 City Grouping EBIT Scenario Model
-- **Question**: What does the 3-year EBIT path look like under conservative/base/optimistic assumptions for the 3+3+4 grouping?
-- **Approach**: Build 3-scenario financial model; Year 1: 3 cities EBIT+; Year 2: +3 cities; Year 3: portfolio EBIT+. Key drivers: AOV improvement, subsidy reduction, partial contraction savings
-- **Data**: AX-A1, A2, A3 outputs; 01-problem-definition.md for base numbers
-- **Data Status**: ✅ Available (with estimated loss figures as noted)
-- **Output**: 3-year EBIT bridge per scenario; breakeven timing
-- **Hypothesis**: Even in conservative scenario, 3-city focus achieves EBIT+ by Year 2
-- **Priority**: P1
-- **Dependencies**: AX-A1, AX-A2, AX-A3 — gating analysis
+### AX-A4: 3+3+4城市分组EBIT情景模型
+- **问题**: 3+3+4分组在保守/基准/乐观假设下，3年EBIT路径如何？
+- **方法**: 三情景财务模型；第1年：3城EBIT+；第2年：+3城；第3年：整体EBIT+。关键驱动：AOV改善、补贴压降、部分收缩节省
+- **数据**: AX-A1/02/03输出；01-problem-definition.md基础数据
+- **数据状态**: ✅ 完备（亏损数为估算，见上）
+- **输出**: 各情景3年EBIT桥；盈亏平衡时点
+- **假设**: 即使保守情景，3城聚焦策略也能在第2年实现EBIT+
+- **优先级**: P1
+- **依赖**: AX-A1、AX-A2、AX-A3 — **门控分析**
 
-### AX-A5: Weihai Model Replicability Assessment
-- **Question**: Can Weihai's formula (high AOV + low fulfillment cost) be replicated in other cities? What are the preconditions?
-- **Approach**: Compare Weihai's driver profile vs. other cities; identify which cities are closest to Weihai's profile; assess AOV uplift levers (category mix, large supermarket depth)
-- **Data**: 01-problem-definition.md
-- **Data Status**: ✅ Available
-- **Output**: Cities ranked by "Weihai-fit" score; AOV uplift pathway per city
-- **Hypothesis**: Weihai's model is partially replicable in C7 (Huizhou) and C1 (Xuzhou with AOV improvement), but not in C9/C10 in the short term
-- **Priority**: P2
-- **Dependencies**: AX-A1, AX-A2 (can run in parallel)
-
----
-
-## WS-B: Competitive Constraint Boundaries
-
-> **Note**: Research executed by consulting associate via web search. Sources: Meituan/JD.com annual reports, analyst reports (Goldman Sachs, Deutsche Bank, Analysys), industry news.
-
-### AX-B1: Meituan Public Financials & Tier 3-4 Strategy Research
-- **Question**: What does Meituan spend on subsidies and R&D per order? What is their disclosed strategy for Tier 3-4 cities?
-- **Approach**: Search Meituan 2024 annual report, investor presentations, analyst call transcripts. Search: "Meituan 四五线城市 instant retail subsidy" and "Meituan on-demand R&D cost per order"
-- **Data Source**: Meituan IR (hkdata.com), Bloomberg, Goldman/DB analyst reports
-- **Data Status**: 🔍 Web search required — executing via subagent
-- **Output**: Key findings memo (subsidy floor estimates, Tier 3-4 expansion remarks)
-- **Confidence**: Medium — national data only, no city-level disclosure
-- **Priority**: P1
-- **Dependencies**: None (research-gating for WS-B2)
-
-### AX-B2: JD.com Public Financials & JD Home Delivery Strategy Research
-- **Question**: What is JD.com's instant retail strategy in lower-tier cities? How does their到家 model compete?
-- **Approach**: Search JD.com 2024 annual report, JD到家 investor materials,Analysys易观 report on instant retail market share
-- **Data Source**: JD.com IR,Analysys, iiMedia
-- **Data Status**: 🔍 Web search required — executing via subagent
-- **Output**: Key findings memo (competitive intensity in Tier 3-4, JD到家差异化 positioning)
-- **Confidence**: Medium
-- **Priority**: P1
-- **Dependencies**: AX-B1 (can run in parallel)
-
-### AX-B3: Competitive Intensity Scenario Analysis
-- **Question**: How do different competitive scenarios constrain Instant Retail's subsidy reduction options?
-- **Approach**: Synthesize AX-B1+B2 findings into 3 competitive scenarios (high/medium/low). For each: estimate maximum feasible subsidy reduction, identify Instant Retail's response options, flag trigger points
-- **Data**: AX-B1, AX-B2 research outputs
-- **Data Status**: Pending AX-B1/B2
-- **Output**: 3×3 scenario matrix (competitive intensity × internal improvement); subsidy floor per scenario
-- **Hypothesis**: Even in high-competition scenario, some subsidy reduction is feasible if targeted at low-value users only
-- **Priority**: P1
-- **Dependencies**: AX-B1, AX-B2 — gating analysis
+### AX-A5: 威海模式可复制性评估
+- **问题**: 威海模式（高AOV+低履约成本）能否复制？前提条件是什么？
+- **方法**: 对比威海与其他城市的驱动因素特征；按"威海适配度"对城市排序；识别各城市AOV提升路径
+- **数据**: 01-problem-definition.md
+- **数据状态**: ✅ 完备
+- **输出**: 各城市"威海适配度"排名；各城市AOV提升路径
+- **假设**: 威海模式在C7（惠州）和C1（徐州，AOV改善后）部分可复制；C9/C10短期不可复制
+- **优先级**: P2
+- **依赖**: AX-A1、AX-A2（可并行）
 
 ---
 
-## WS-C: Subsidy Precision Opportunity
+## WS-B: 竞争约束边界
 
-### AX-C1: Subsidy Efficiency Diagnostic
-- **Question**: How is the current 4.2元/order average subsidy distributed across city and user quality tiers?
-- **Approach**: Cross-city comparison of subsidy per order vs. high-value user %; identify which cities have worst subsidy efficiency
-- **Data**: 01-problem-definition.md (subsidy and user % per city)
-- **Data Status**: ✅ Available
-- **Output**: Subsidy efficiency ranking table; "waste rate" proxy per city
-- **Finding to confirm**: C10 has highest subsidy (4.9元) + lowest high-value users (15%) = worst efficiency
-- **Priority**: P1
-- **Dependencies**: None
+> **注**: 研究由咨询顾问通过网络搜索执行。来源：美团/京东年报、分析师报告（高盛/德银/艾瑞）、行业新闻。
 
-### AX-C2: High-Value User Improvement Potential Analysis
-- **Question**: What does the Weihai (26%) vs. Ganzhou (15%) gap tell us about improvement potential?
-- **Approach**: Compare user and city characteristics between Weihai and Ganzhou; identify structural drivers of the 11pp gap (category mix? large supermarket depth? city demographics? subsidy targeting?)
-- **Data**: 01-problem-definition.md; **Known Gap**: no user retention curves or cohort data
-- **Data Status**: ⚠️ Partial —断面 data available; longitudinal data missing
-- **Output**: Gap decomposition; qualitative improvement pathway; improvement ceiling estimate
-- **Hypothesis**: 11pp gap is partially attributable to category mix (Weihai has more到家快消, less restaurant) and large supermarket depth — both actionable within 12 months
-- **Priority**: P1
-- **Dependencies**: AX-A1 (can run in parallel)
+### AX-B1: 美团公开财务及三四线战略研究
+- **问题**: 美团在三四线城市的单均补贴和研发支出是多少？其三四线战略是什么？
+- **方法**: 检索美团2024年报、投资者PPT、分析师电话纪要；搜索"美团四五线城市即时零售补贴"
+- **数据来源**: 美团投资者关系（hkdata.com）、彭博、高盛/德银分析师报告
+- **数据状态**: 🔍 需网络搜索 — 通过子任务执行
+- **输出**: 关键发现备忘录（补贴下限估算、三四线战略描述）
+- **置信度**: 中 — 仅有全国数据，无城市级披露
+- **优先级**: P1
+- **依赖**: 无（研究之门控）
 
-### AX-C3: Subsidy Reallocation Scenario Analysis
-- **Question**: What is the financial impact of reallocating subsidy from low-value to high-value users under each competitive scenario?
-- **Approach**: Model 3 scenarios (conservative/base/optimistic) for subsidy reallocation over 12 months. Conservative: maintain current subsidy for high-value users only, reduce low-value by 10%; base: reduce low-value by 20%, increase high-value retention incentive; optimistic: full reallocation. Financial impact: delta to annual subsidy spend × effect on high-value user %
-- **Data**: AX-C1, AX-C2 outputs; AX-B3 competitive ceiling inputs
-- **Data Status**: ⚠️ Model inputs partial — retention curves unknown (known gap)
-- **Output**: Subsidy savings range per scenario; high-value user % trajectory per scenario
-- **Note**: Will present as "directional estimate with explicit assumptions" — not a precise prediction
-- **Priority**: P1
-- **Dependencies**: AX-C1, AX-C2, **AX-B3** (competitive ceiling gates the scenarios)
+### AX-B2: 京东公开财务及京东到家战略研究
+- **问题**: 京东在低线城市的即时零售战略是什么？京东到家如何竞争？
+- **方法**: 检索京东2024年报、京东到家投资者材料、艾瑞/易观即时零售市场份额报告
+- **数据来源**: 京东投资者关系、艾瑞、易观、iiMedia
+- **数据状态**: 🔍 需网络搜索 — 通过子任务执行
+- **输出**: 关键发现备忘录（低线城市竞争烈度、京东到家差异化定位）
+- **置信度**: 中
+- **优先级**: P1
+- **依赖**: AX-B1（可并行）
 
----
-
-## Data Inventory
-
-| Data Item | Source | Status | Notes |
-|-----------|--------|--------|-------|
-| 10-city AOV, order volume, costs | 01-problem-definition.md | ✅ Have | Primary data source |
-| City-level loss estimates | 01-problem-definition.md | ⚠️ Have | Estimated by CSO, not actuals |
-| High-value user % by city | 01-problem-definition.md | ✅ Have | 15-26% range |
-| Large supermarket % by city | 01-problem-definition.md | ✅ Have | 12-23% range |
-| Category mix by city | 01-problem-definition.md | ✅ Have | % for 生鲜/餐饮/到家快消 |
-| City open year, market share | 01-problem-definition.md | ✅ Have | 2018-2022 range |
-| Monthly / quarterly trends | None | ❌ Unavailable | Do not estimate |
-| User retention / repurchase curves | None | ❌ Unavailable | Known gap — use scenario ranges |
-| Fixed cost breakdown | None | ❌ Unavailable | Use estimated loss as proxy |
-| Meituan Tier 3-4 subsidy data | Public financials / analyst reports | 🔍 Need | Executing via subagent |
-| JD.com instant retail data | Public financials | 🔍 Need | Executing via subagent |
-| Competitive intensity in target cities | Industry reports | 🔍 Need | Proxy approach |
+### AX-B3: 竞争烈度情景分析
+- **问题**: 不同竞争情景如何约束即时零售的补贴压降空间？
+- **方法**: 综合AX-B1+B2发现，构建3种竞争情景（高/中/低）。每种情景下：估算最大可行补贴压降幅度、识别应对选项、标注触发点
+- **数据**: AX-B1、AX-B2研究输出
+- **数据状态**: 待AX-B1/B2完成
+- **输出**: 3×3情景矩阵（竞争烈度 × 内部改善）；各情景补贴下限
+- **假设**: 即使高竞争情景，若仅针对低价值用户，仍有一定补贴压降空间
+- **优先级**: P1
+- **依赖**: AX-B1、AX-B2 — **门控分析**
 
 ---
 
-## Timeline (May 1–3, Analysis Phase)
+## WS-C: 补贴精准化空间
 
-| Date | Focus | Deliverable |
-|------|-------|-------------|
-| **May 1** | WS-A: Run A1, A2, A3 in parallel | Comparative tables, cost-benefit analysis |
-| **May 2** | WS-A: A4 (gating) + A5; WS-B: B1+B2 research | EBIT scenario model; competitive intel memo |
-| **May 3** | WS-B: B3; WS-C: C1, C2, C3 | Scenario matrices; findings document |
-| **May 4–5** | Integration, cross-review, PPT drafting | — |
+### AX-C1: 补贴效率诊断
+- **问题**: 当前4.2元/单的补贴在各城市和用户质量层级如何分布？
+- **方法**: 各城市补贴/单 vs. 高价值用户占比的横向对比；识别补贴效率最差的城市
+- **数据**: 01-problem-definition.md（各城市补贴和用户占比）
+- **数据状态**: ✅ 完备
+- **输出**: 补贴效率排名表；各城市"浪费率"代理指标
+- **待验证发现**: C10补贴最高（4.9元）+高价值用户最低（15%）=效率最差
+- **优先级**: P1
+- **依赖**: 无
 
-**Note**: WS-A analyses are fully data-ready and can launch immediately. WS-B is the pacing item — research subagent fires on May 1 so findings are ready for AX-B3 on May 2.
+### AX-C2: 高价值用户改善潜力分析
+- **问题**: 威海（26%）vs. 赣州（15%）的差距告诉我们什么改善空间？
+- **方法**: 对比威海与赣州的城市和用户特征；识别11pp差距的结构性驱动因子（品类结构？大超深度？城市人口特征？补贴精准度？）
+- **数据**: 01-problem-definition.md；**已知缺口**：无复购率/留存曲线数据
+- **数据状态**: ⚠️ 部分完备 — 有断面数据，无纵向数据
+- **输出**: 差距分解；定性改善路径；改善上限估算
+- **假设**: 11pp差距部分由品类结构（威海到家快消占比更高、餐饮更低）和大超深度驱动——两者均可在12个月内改善
+- **优先级**: P1
+- **依赖**: AX-A1（可并行）
+
+### AX-C3: 补贴重分配情景分析
+- **问题**: 将补贴从低价值用户向高价值用户重分配，在各竞争情景下的财务影响是什么？
+- **方法**: 建模12个月补贴重分配的三种情景（保守/基准/乐观）。保守：仅对高价值用户维持补贴，低价值用户减少10%；基准：低价值减少20%+留存激励；乐观：完全重分配。财务影响：年补贴支出变化 × 高价值用户占比轨迹
+- **数据**: AX-C1、AX-C2输出；AX-B3竞争天花板输入
+- **数据状态**: ⚠️ 模型输入部分缺失 — 留存曲线未知（已知缺口）
+- **输出**: 各情景补贴节省区间；高价值用户占比轨迹
+- **注**: 将以"方向性估算+明确假设"呈现，而非精确预测
+- **优先级**: P1
+- **依赖**: AX-C1、AX-C2、**AX-B3**（竞争天花板为情景之门控）
 
 ---
 
-## Metadata
+## 数据清单
+
+| 数据项 | 来源 | 状态 | 格式 | 备注 | 若不可用时的替代方案 |
+|--------|------|------|------|------|-------------------|
+| 10城AOV、单量、成本 | 01-problem-definition.md | ✅ 完备 | 内嵌于文档 | 主要数据来源 | N/A |
+| 城市级亏损估算 | 01-problem-definition.md | ⚠️ 完备（估算） | 内嵌于文档 | CSO估算，非实际数据 | 作为代理使用；标注为估算值 |
+| 各城市高价值用户占比 | 01-problem-definition.md | ✅ 完备 | 内嵌于文档 | 区间15-26% | N/A |
+| 各城市大超占比 | 01-problem-definition.md | ✅ 完备 | 内嵌于文档 | 区间12-23% | N/A |
+| 各城市品类结构 | 01-problem-definition.md | ✅ 完备 | 内嵌于文档 | 生鲜/餐饮/到家快消 % | N/A |
+| 城市开城年份、市场份额 | 01-problem-definition.md | ✅ 完备 | 内嵌于文档 | 区间2018-2022 | N/A |
+| 月度/季度趋势 | 无 | ❌ 不可得 | N/A | 无月度数据 | 不估算；仅使用断面快照 |
+| 用户复购/留存曲线 | 无 | ❌ 不可得 | N/A | 已知缺口 — 无队列数据 | 使用情景区间（低/基准/高）；不虚构留存曲线 |
+| 固定成本拆分 | 无 | ❌ 不可得 | N/A | 固定/变动拆分未提供 | 以估算年亏损作为固定成本负担代理 |
+| 美团三四线补贴数据 | 公开财务/分析师报告 | 🔍 需要 | 年报/分析师报告 | 无城市级披露；仅有全国数据 | 作为上限使用；承认不确定性 |
+| 京东即时零售数据 | 公开财务 | 🔍 需要 | 年报 | 京东到家地区数据未披露 | 以行业报告为代理 |
+| 目标城市竞争烈度 | 行业报告 | 🔍 需要 | 研究报告 | 艾瑞/易观可能有市场份额数据 | 定性情景框架 |
+
+---
+
+## 时间表（5月1–3日，分析阶段）
+
+| 日期 | 重点 | 交付物 |
+|------|------|--------|
+| **5月1日** | WS-A: 并行运行A1、A2、A3 | 比较排名表、成本收益分析 |
+| **5月2日** | WS-A: 完成A4（门控）+A5；WS-B: B1+B2研究 | EBIT情景模型；竞争情报备忘录 |
+| **5月3日** | WS-B: B3；WS-C: C1、C2、C3 | 情景矩阵；结论文档 |
+| **5月4–5日** | 整合、交叉审核、PPT起草 | — |
+
+**注**: WS-A分析数据已完备，可立即启动。WS-B（竞争研究）为节奏控制项——5月1日即启动研究子任务，确保5月2日产出 findings，供AX-B3使用。
+
+---
+
+## 元数据
 
 - Step: 4
 - Status: draft
 - Created: 2026-04-30
-- Engagement folder: /Users/minimx/Library/Mobile Documents/com~apple~CloudDocs/Bainsight/InstantRetail/Tier3-4Strategy
-- Competition deadline: 2026-05-06
-- Analysis deadline: 2026-05-03 (EOB)
+- Engagement文件夹: InstantRetail/Tier3-4Strategy/
+- 竞赛截止日期: 2026-05-06
+- 分析截止日期: 2026-05-03（下班前）
