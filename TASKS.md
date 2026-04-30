@@ -17,7 +17,7 @@
 
 ### 4/30（开题日）
 
-- [ ] 开题，brainstorm
+- [X] 开题，brainstorm
 - [ ] 分头找数据
 - [ ] 联系可提供行业 insight 的人
 
