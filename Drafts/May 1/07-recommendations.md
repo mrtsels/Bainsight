@@ -71,7 +71,7 @@ implementation_phases:
 ### 3. Execute a Gated 20% Subsidy Taper
 
 **What**: Cut per-order subsidies by 20% across the 7 surviving cities, shielding the top quartile of "high-value" users from the cuts.
-**Why**: Current subsidies fund opportunistic, disloyal volume. By targeting the cuts at price-sensitive cohorts, total volume drops by <1% (optimistic scenario), while margins recover ¥0.7–1.0 per order.
+**Why**: Current subsidies fund opportunistic, disloyal volume. While absolute volume drops as price-sensitive cohorts churn, this constitutes an intentional shedding of unprofitable orders. Margins recover ¥0.7–1.0 per order on the remaining sticky volume.
 **Impact**: Rapidly bridges the gap to unit profitability while protecting core revenue.
 **Timeline**: Months 3–6 (Pilot) -> Months 6–12 (Rollout).
 **Owner**: Marketing/Growth.
@@ -129,7 +129,7 @@ Restructure the T3/4 portfolio to self-fund an asset-light, profitable revenue e
 
 1. Exit Xuzhou, Luoyang, Ganzhou — frees ~¥60M/year in dead capital.
 2. Pivot to Flash Warehouses — lowers fulfillment baseline from ¥11 to ¥9.
-3. Taper subsidies by 20% surgically — recovers margin with <1% volume loss.
+3. Taper subsidies by 20% surgically — recovers margin by intentionally shedding unprofitable volume.
 
 ### Implementation at a Glance
 
@@ -145,7 +145,7 @@ Restructure the T3/4 portfolio to self-fund an asset-light, profitable revenue e
 
 **Phase 3 (1-3y):**
 • Optimize partner picking SLAs to defend consumer experience.
-• Expand partner categories to capture AOV upside.
+• Expand into premium liquor and electronics to capture AOV upside.
 
 ### The Stakes
 

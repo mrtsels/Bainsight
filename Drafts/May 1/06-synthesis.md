@@ -28,7 +28,7 @@ insights:
 confidence_assessment:
   overall: high
   strongest: "The structural unviability of Dark Stores in T3/4 (Insight 2)."
-  weakest: "The exact volume response (elasticity) to subsidy tapering (Insight 3)."
+  weakest: "The exact volume response to subsidy tapering among the non-core users (Insight 3)."
 validates:
   - criterion: "01-problem-definition.md#sc-1"
     met: true
@@ -50,11 +50,11 @@ Treating all 10 cities as equal opportunities was a strategy mismatch, not an ex
 
 ### Insight 2: Dark Stores are mathematically broken in low-density markets.
 
-Even in our top 7 cities, the fundamental unit economics of a Dark Store (heavy fixed assets, high labor) cannot clear the break-even hurdle at Tier-3/4 order volumes. **Evidence:** Blended fulfillment costs sit at ~¥10.1/order, while pure Dark Stores require ~¥11-12/order. Pivoting to a Flash Warehouse model (partner picking, platform delivery) drops this to ~¥9/order, structurally pushing our "Optimize" and "Invest" cities aggressively towards positive unit margins.
+Even in our top 7 cities, the fundamental unit economics of a Dark Store (heavy fixed assets, high labor) cannot clear the break-even hurdle at Tier-3/4 order volumes. **Evidence:** Blended fulfillment costs sit at ~¥10.1/order, while pure Dark Stores require ~¥11-12/order. Pivoting to a Flash Warehouse model (partner picking, platform delivery) drops this dark store volume cost to ~¥9/order. This yields a blended saving of ~¥1.1 per order across the city, structurally pushing our "Optimize" and "Invest" cities aggressively towards positive unit margins.
 
 ### Insight 3: Subsidies are buying bad volume; pulling back safely funds the turnaround.
 
-Because our operating model was broken, we have relied on subsidies (¥3.5–4.9/order) to artificially prop up scale, buying opportunistic volume rather than loyalty. **Evidence:** An targeted 20% subsidy cut acts as a minimal ~1.5% effective price increase. Assuming an optimistic elasticity (-0.6) for our 20% high-value user base, volume drops <1% while restoring ¥0.7–1.0 per order directly to the bottom line.
+Because our operating model was broken, we have relied on subsidies (¥3.5–4.9/order) to artificially prop up scale, buying opportunistic volume rather than loyalty. **Evidence:** An targeted 20% subsidy cut acts as a minimal ~1.5% effective price increase. While the absolute order volume from price-sensitive cohorts will drop significantly, this represents an intentional shedding of unprofitable orders. Retaining our inelastic high-value core restores ¥0.7–1.0 per order directly to the bottom line.
 
 ## How the Pieces Fit Together
 
