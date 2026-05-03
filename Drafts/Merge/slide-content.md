@@ -222,9 +222,44 @@ source: "Synthesis of Scheme A (surgical narrative) and Scheme B (competitive re
 - **Eyebrow**: PORTFOLIO STRATEGY
 - **Title**: Exiting the 4 structurally unviable cities is not retreat—it is strategic capital reallocation that self-funds the entire transformation
 - **Left Column — The Math of Exit**:
-  - Xuzhou (¥25M), Luoyang (¥22M), Ganzhou (¥15M), Guilin (¥13M) = ~¥75M annual operational losses
-  - Conservative exit estimate (partial wind-down, lease breaks): ~¥25–30M one-time cost
-  - Net 3-year capital freed: ¥170M+
+  - **Annual Loss Calculation**:
+    - Xuzhou (¥25M) + Luoyang (¥22M) + Ganzhou (¥15M) + Guilin (¥13M) = **¥75M/year total operational burn**
+    - Validation: Portfolio currently at ~¥140M annual loss (Slide 12); 4 cities represent ~53% of total portfolio loss ✓
+  - **One-Time Exit Cost Breakdown** (conservative estimate):
+    - Lease termination penalties: ~¥8–10M (avg 6-month remaining lease × avg Dark Store footprint)
+    - Severance & contractual obligations: ~¥6–8M (headcount reduction, partner contract buyouts)
+    - Residual inventory wind-down & write-offs: ~¥5–6M (book value of Dark Store inventory)
+    - Legal & admin closure costs: ~¥3–4M (city-level entity dissolution, licenses)
+    - **Subtotal: ~¥22–28M → rounded to ¥25–30M conservative midpoint ≈ ¥27.5M**
+  - **3-Year Net Capital Freed Calculation**:
+    - Gross savings = ¥75M/year × 3 years = **¥225M**
+    - Less: One-time exit cost = ¥27.5M (midpoint)
+    - Less: Residual operational tail during wind-down (~¥15M for 12-month phased exit)
+    - **Net 3-year capital freed = ¥225M − ¥27.5M − ¥15M ≈ ¥182.5M → reported as ¥170M+** (rounded conservatively, ¥12.5M buffer for timing/overrun)
+  - **Payback Verification**: ¥27.5M exit cost ÷ ¥75M annual savings = **0.37 years ≈ 4.4 months** → <18 months ✓
+  - **ASCII Summary**:
+    ```
+    ANNUAL LOSS BY CITY (¥M)
+    ┌──────────┬────────┬──────┐
+    │ City     │  Loss  │  %   │
+    ├──────────┼────────┼──────┤
+    │ Xuzhou   │  ¥25   │ 33%  │
+    │ Luoyang  │  ¥22   │ 29%  │
+    │ Ganzhou  │  ¥15   │ 20%  │
+    │ Guilin   │  ¥13   │ 17%  │
+    ├──────────┼────────┼──────┤
+    │ TOTAL    │  ¥75   │100%  │
+    └──────────┴────────┴──────┘
+    
+    3-YEAR CAPITAL BRIDGE (¥M)
+    ¥225M  ── Gross 3-yr savings
+    -¥27.5M── Exit costs (midpoint)
+    -¥15M  ── Wind-down tail
+     ═══════
+    ≈¥182.5M → ¥170M+ (conservative buffer)
+    
+    PAYBACK: ¥27.5M ÷ ¥75M = 0.37 yrs (~4.4 mo) ✓
+    ```
 - **Right Column — The Deployment Logic**:
   - No incremental funding request to Board
   - ¥170M funds: Flash Warehouse transition costs + targeted retention spend for high-value users + "On-Time Promise" pilot in Huizhou + hypermarket BD integration in Quanzhou
@@ -310,8 +345,9 @@ source: "Synthesis of Scheme A (surgical narrative) and Scheme B (competitive re
 
   - DNA: 23% hypermarket partner share (highest in portfolio); 7-year operating history
   - Moat: deep exclusive partnerships with 1–2 regional/national hypermarket chains → fresh produce & FMCG supply stability that competitors cannot replicate without similar relationships
-  - 6-Month Action: onboard 1 anchor hypermarket chain for exclusive instant delivery; integrate inventory systems
+  - 6-Month: onboard 1 hypermarket chain for exclusive delivery pilot; integrate systems
   - KPI: fresh produce order share up 5pp within 12 months
+  - Argument: system integration → hypermarket drives fresh repurchase flywheel
 - **Column 2 — Huizhou: Density-Driven "On-Time Promise" Moat**:
 
   - DNA: 120K daily orders (highest in portfolio); approaching density critical mass

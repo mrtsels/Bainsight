@@ -7,8 +7,8 @@ status: approved
 addresses: "01-problem-definition.md#kq"
 format: deck
 ---
-
 # Slide Outline: Instant Retail Tier 3-4 City EBIT Breakeven Pathway
+
 # 幻灯片大纲：Instant Retail 三四线城市 EBIT 转正路径
 
 ---
@@ -28,31 +28,32 @@ format: deck
 **Action Title | 行动主题**: Through three-city focus, precision subsidies, and divestiture of inefficient assets, portfolio EBIT will achieve steady breakeven within 3 years.
 
 **Module 1: Structural Misalignment, Not Demand Deficiency**
+
 - 论点：The current annual loss of RMB 135-150M is a "structural unit economics misalignment."
-- 论据（表格）：
-  | Current State | Assessment |
-  |------|------|
-  | Annual loss of RMB 135-150M | Structural misalignment, not demand deficiency |
+- 论据（表格）：| Current State                    | Assessment                                         |
+  | -------------------------------- | -------------------------------------------------- |
+  | Annual loss of RMB 135-150M      | Structural misalignment, not demand deficiency     |
   | 12-18 month capital runway limit | Must demonstrate self-funding capability in Year 1 |
 
 **Module 2: Strategic Pivot**
+
 - 论点：From "nationwide expansion" to "three-city focus."
-- 论据（表格）：
-  | Strategy | Cities | Timeline |
-  |------|------|--------|
-  | Bleed-stop priority | Quanzhou/Huizhou/Weihai | 12-18 month validation |
-  | Optimization follow-up | Xuzhou/Nanchang/Nanning | Year 2 |
-  | Assessment & divestiture | Guilin/Ganzhou/Luoyang/Yichang | Phased |
+- 论据（表格）：| Strategy                 | Cities                         | Timeline               |
+  | ------------------------ | ------------------------------ | ---------------------- |
+  | Bleed-stop priority      | Quanzhou/Huizhou/Weihai        | 12-18 month validation |
+  | Optimization follow-up   | Xuzhou/Nanchang/Nanning        | Year 2                 |
+  | Assessment & divestiture | Guilin/Ganzhou/Luoyang/Yichang | Phased                 |
 
 **Module 3: Two Key Reversal Levers**
+
 - 论点：Subsidy rebalancing + competitive escalation.
-- 论据（表格）：
-  | Lever | From | To | Resources Unlocked |
-  |------|----|----|---------|
-  | Subsidy rebalancing | Subsidizing volume | Investing in retention | 80% of subsidy resources |
+- 论据（表格）：| Lever                  | From                      | To                     | Resources Unlocked                  |
+  | ---------------------- | ------------------------- | ---------------------- | ----------------------------------- |
+  | Subsidy rebalancing    | Subsidizing volume        | Investing in retention | 80% of subsidy resources            |
   | Competitive escalation | Defending against Meituan | Attacking supermarkets | Instant fulfillment differentiation |
 
 **Module 4: 3-Year Financial Milestones**
+
 - 论点：Year 1 bleed-stop → Year 2 breakeven → Year 3 profitability.
 - 论据（图表）：
   ```
@@ -77,6 +78,7 @@ format: deck
 **Action Title | 行动主题**: The company faces a 12-18 month survival countdown. The narrative of "get big first, profit later" is no longer viable.
 
 **Module 1: Unsustainable Burn Rate**
+
 - 论点：Annual loss of RMB 135M+—capital runway limit is approaching.
 - 论据（数据卡片）：
   ```
@@ -88,6 +90,7 @@ format: deck
   ```
 
 **Module 2: The Illusion of Scale Shattered**
+
 - 论点：Xuzhou delivers 110K orders/day yet loses RMB 25M annually—scale ≠ profitability.
 - 论据（案例卡片）：
   ```
@@ -103,6 +106,7 @@ format: deck
   ```
 
 **Module 3: Breakthrough Point**
+
 - 论点：Must "crack open" the unit economics model—no longer masking old problems with new businesses.
 - 论点：聚焦现有核心资产 | Focus on existing core assets.
 
@@ -113,6 +117,7 @@ format: deck
 **Action Title | 行动主题**: Today's agenda focuses on four core questions.
 
 **Module 1: Agenda Overview**
+
 - 论点：Four core propositions.
 - 论据（四宫格）：
   ```
@@ -132,6 +137,7 @@ format: deck
 **Action Title | 行动主题**: Stop spray-and-spend expansion. Implement the "3+3+4" city-tier strategy.
 
 **Module 1: City Stratification Matrix**
+
 - 论点：Layered resource allocation with clear priorities.
 - 论据（矩阵表格）：
   ```
@@ -152,6 +158,7 @@ format: deck
   ```
 
 **Module 2: Resource Recirculation Logic**
+
 - 论点：Assessment tier savings → flow back to Bleed-Stop tier.
 - 论据（流程图）：
   ```
@@ -165,6 +172,7 @@ format: deck
 **Action Title | 行动主题**: Scale is not the answer—three city paths cannot be interchanged. Must tailor strategy to each city's DNA.
 
 **Module 1: City DNA Comparison**
+
 - 论点：Three cities, three distinct genes—strategies are non-replicable.
 - 论据（三栏对比表）：
   ```
@@ -189,11 +197,12 @@ format: deck
   ```
 
 **Module 2: Non-Transferability Insight**
+
 - 论点：Each city's "DNA" differs—requires differentiated strategy.
 - 论据（要点）：
   - Cannot replicate Quanzhou's supply chain in Xuzhou.
   - Cannot force Weihai's high-AOV model onto Ganzhou.
-  - Must "tailor strategy to each city's DNA."
+  - Must "tailor strategy to eaFch city's DNA."
 
 ---
 
@@ -202,6 +211,7 @@ format: deck
 **Action Title | 行动主题**: Quanzhou leverages "hypermarket depth" to lower fulfillment costs. Its 23% hypermarket share has become the core moat.
 
 **Module 1: Current State Analysis**
+
 - 论点：Quanzhou's hypermarket share at 23%—already breakeven or marginally profitable.
 - 论据（数据卡片）：
   ```
@@ -214,6 +224,7 @@ format: deck
   ```
 
 **Module 2: Flywheel Effect**
+
 - 论点：Hypermarket supply → fresh repurchases → user retention → supply chain stability.
 - 论据（流程图）：
   ```
@@ -242,6 +253,7 @@ format: deck
   ```
 
 **Module 3: Action Items**
+
 - 论点：Within 6 months, onboard 1 regional/national hypermarket brand for exclusive fulfillment pilot.
 - 论点：Complete system integration to ensure hypermarket supply continuously drives high-frequency fresh repurchases.
 
@@ -252,6 +264,7 @@ format: deck
 **Action Title | 行动主题**: Huizhou leverages "extreme density" to flatten costs—at 120K orders/day, only marginally loss-making, threshold within reach.
 
 **Module 1: Current State Analysis**
+
 - 论点：Huizhou's scale of 120K orders/day—only marginally loss-making.
 - 论据（数据卡片）：
   ```
@@ -264,6 +277,7 @@ format: deck
   ```
 
 **Module 2: Density-Cost Relationship**
+
 - 论点：Increasing order density reduces per-unit fulfillment costs, approaching the critical threshold.
 - 论据（坐标图）：
   ```
@@ -280,6 +294,7 @@ format: deck
   ```
 
 **Module 3: Action Items**
+
 - 论点1：Launch night delivery MVP (3-month pilot) to monetize off-peak capacity.
 - 论点2：Gradually step down subsidies to test whether high-density fulfillment costs can break through the critical threshold.
 
@@ -290,6 +305,7 @@ format: deck
 **Action Title | 行动主题**: Weihai achieves the portfolio's best unit economics through category optimization—AOV RMB 65, fulfillment only RMB 9.
 
 **Module 1: Best-in-Class Unit Economics**
+
 - 论点：Weihai has the portfolio's best unit economics.
 - 论据（数据仪表盘）：
   ```
@@ -306,6 +322,7 @@ format: deck
   ```
 
 **Module 2: Category Structure**
+
 - 论点：FMCG-dominant category mix → high-AOV structure.
 - 论据（结构图）：
   ```
@@ -321,6 +338,7 @@ format: deck
   ```
 
 **Module 3: Action Items**
+
 - 论点1：Redirect on-platform traffic and marketing resources toward high-AOV categories (FMCG).
 - 论点2：Within 6 months, develop a Category Optimization Playbook to guide other cities.
 
@@ -331,6 +349,7 @@ format: deck
 **Action Title | 行动主题**: Subsidy efficiency gap exceeds 2x—Ganzhou at RMB 4.9/order vs. Weihai at RMB 3.5/order, yet the latter achieves nearly double the retention rate.
 
 **Module 1: Efficiency Comparison**
+
 - 论点：Ganzhou vs. Weihai—subsidy efficiency gap exceeds 2x.
 - 论据（双柱对比图）：
   ```
@@ -352,6 +371,7 @@ format: deck
   ```
 
 **Module 2: Waste Problem**
+
 - 论点：80% of subsidies are wasted on low-repeat edge users.
 - 论据（饼图）：
   ```
@@ -363,6 +383,7 @@ format: deck
   ```
 
 **Module 3: KPI Transformation**
+
 - 论点：From "subsidy per order" → "cost to acquire/retain a single high-value user."
 - 论点：Precision retention investment, not volume purchasing.
 
@@ -373,6 +394,7 @@ format: deck
 **Action Title | 行动主题**: Two-step subsidy system overhaul—transition from "coarse blocking" to "precision model" within 60 days.
 
 **Module 1: Month 1 — Coarse Blocking**
+
 - 论点：Immediate effectiveness to stop the bleeding.
 - 论据（行动清单）：
   ```
@@ -386,6 +408,7 @@ format: deck
   ```
 
 **Module 2: Month 2-3 — Refined Model**
+
 - 论点：Based on Weihai's 26% high-value user profiles, precision segmentation.
 - 论据（流程图）：
   ```
@@ -400,6 +423,7 @@ format: deck
   ```
 
 **Module 3: Expected Payoff**
+
 - 论点：Annual savings of RMB 8-15M.
 - 论点：Compelling ROI; system transition completed in 60 days.
 
@@ -410,6 +434,7 @@ format: deck
 **Action Title | 行动主题**: Meituan's strategic defense opens a window—the real enemy is offline supermarkets, capturing 60-70% of resident orders.
 
 **Module 1: Meituan Threat Assessment**
+
 - 论点：Meituan pivoted to profitability-first in 2023; subsidy wars are over.
 - 论据（时间线卡片）：
   ```
@@ -426,6 +451,7 @@ format: deck
   ```
 
 **Module 2: The Real Enemy**
+
 - 论点：Offline traditional supermarkets capture 60-70% of resident orders.
 - 论据（市场份额图）：
   ```
@@ -438,6 +464,7 @@ format: deck
   ```
 
 **Module 3: Strategic Window**
+
 - 论点：Meituan's defense → we can safely disengage and focus on the real competitor.
 - 论点：From "defensive subsidy war" → "differentiated service infrastructure."
 
@@ -448,6 +475,7 @@ format: deck
 **Action Title | 行动主题**: The weapon against offline supermarkets is not discounting—"extreme convenience" is the differentiated attack.
 
 **Module 1: Positioning Shift**
+
 - 论点：The weapon is not discounting—it is extreme convenience.
 - 论据（对比表）：
   ```
@@ -460,6 +488,7 @@ format: deck
   ```
 
 **Module 2: Three-Pronged Action**
+
 - 论点：Marketing/fulfillment/category—all three prongs.
 - 论据（三栏图）：
   ```
@@ -473,6 +502,7 @@ format: deck
   ```
 
 **Module 3: Pilot Plan**
+
 - 论点：Quanzhou/Weihai pilot "on-time delivery" fulfillment commitment.
 - 论点：Avoid Meituan's food delivery red ocean; capture instant grocery replenishment mindset.
 
@@ -483,6 +513,7 @@ format: deck
 **Action Title | 行动主题**: Divesting inefficient assets is not retreat—four tail cities save RMB 18.5M annually to fund core city buildout.
 
 **Module 1: Tail City Reality**
+
 - 论点：C10/C9 and other tail cities suffer from dual-low AOV and user quality.
 - 论据（城市卡片）：
   ```
@@ -498,6 +529,7 @@ format: deck
   ```
 
 **Module 2: The Math**
+
 - 论点：Partial contraction and divestiture releases RMB 18.5M annually.
 - 论据（数据卡片）：
   ```
@@ -509,6 +541,7 @@ format: deck
   ```
 
 **Module 3: Where the Money Goes**
+
 - 论点：Not a P&L trim—it is front-line ammunition.
 - 论据（流向图）：
   ```
@@ -522,6 +555,7 @@ format: deck
 **Action Title | 行动主题**: Three divestiture paths tailored to city endowment—local agent takeover, pure matchmaking platform, strategic evaluation, with 3-6 month buffer period.
 
 **Module 1: Model A — Local Agent Takeover**
+
 - 论点：Suitable for C10 Ganzhou.
 - 论据（流程图）：
   ```
@@ -536,6 +570,7 @@ format: deck
   ```
 
 **Module 2: Model B — Pure Matchmaking Platform**
+
 - 论点：Suitable for C5 Yichang.
 - 论据（流程图）：
   ```
@@ -548,6 +583,7 @@ format: deck
   ```
 
 **Module 3: Model C — Strategic Evaluation**
+
 - 论点：Suitable for C4 Luoyang/C9 Guilin.
 - 论据（要点）：
   ```
@@ -564,6 +600,7 @@ format: deck
 **Action Title | 行动主题**: 90-day quick wins—immediately stop the bleeding; Bleed-Stop Tier kicks off core validations.
 
 **Module 1: Week 1-2 — Emergency Bleed-Stop**
+
 - 论点：C10 Ganzhou blocks new user universal subsidies; C1 Optimization Tier forces on stop-loss rules.
 - 论据（甘特图第一段）：
   ```
@@ -580,6 +617,7 @@ format: deck
   ```
 
 **Module 2: Week 2-4 — Agent Screening**
+
 - 论点：C10 completes agent long-list; Huizhou launches night delivery MVP.
 - 论据（甘特图第二段）：
   ```
@@ -596,6 +634,7 @@ format: deck
   ```
 
 **Module 3: Month 2-3 — Core Validation**
+
 - 论点：Weihai funnel model goes live; Three-City KPI baseline completed; Quanzhou hypermarket BD initiated.
 - 论据（甘特图第三段）：
   ```
@@ -622,6 +661,7 @@ format: deck
 **Action Title | 行动主题**: From single-city validation to portfolio breakeven—3 years from -RMB 140M to full profitability.
 
 **Module 1: Year 1 — Bleed-Stop Validation**
+
 - 论点：Three cities EBIT-positive; C10/C5 asset-light complete.
 - 论据（里程碑卡片）：
   ```
@@ -637,6 +677,7 @@ format: deck
   ```
 
 **Module 2: Year 2 — Portfolio Breakeven**
+
 - 论点：Optimization Tier follows; deploys Bleed-Stop Tier's validated playbook.
 - 论据（里程碑卡片）：
   ```
@@ -652,6 +693,7 @@ format: deck
   ```
 
 **Module 3: Year 3 — Full Profitability**
+
 - 论点：Economies of scale offset corporate fixed costs.
 - 论据（里程碑卡片）：
   ```
@@ -666,6 +708,7 @@ format: deck
   ```
 
 **Module 4: 3-Year Overview**
+
 - 论点：-140M → +33M → profitability.
 - 论据（时间轴）：
   ```
@@ -683,6 +726,7 @@ format: deck
 **Action Title | 行动主题**: Portfolio EBIT from -RMB 140M to +RMB 33M—four engines fill the RMB 173M gap.
 
 **Module 1: Bridge Overview**
+
 - 论点：Waterfall presentation of four incremental engines.
 - 论据（瀑布图）：
   ```
@@ -700,6 +744,7 @@ format: deck
   ```
 
 **Module 2: Engine A — Divestiture**
+
 - 论点：+RMB 18.5M.
 - 论据（数据卡）：
   ```
@@ -709,6 +754,7 @@ format: deck
   ```
 
 **Module 3: Engine B — Subsidy Efficiency**
+
 - 论点：+RMB 35M.
 - 论据（数据卡）：
   ```
@@ -718,6 +764,7 @@ format: deck
   ```
 
 **Module 4: Engine C — AOV Expansion**
+
 - 论点：+RMB 60M.
 - 论据（数据卡）：
   ```
@@ -727,6 +774,7 @@ format: deck
   ```
 
 **Module 5: Engine D — Fulfillment Leverage**
+
 - 论点：+RMB 60M.
 - 论据（数据卡）：
   ```
@@ -736,15 +784,15 @@ format: deck
   ```
 
 **Module 6: Summary Table**
+
 - 论点：Total improvement RMB 173M, -140M → +33M.
-- 论据（汇总表）：
-  | Engine | Contribution | Calculation |
-  |--------|-------------|-------------|
-  | A Divestiture | +RMB 18.5M | Tail city asset-light |
-  | B Subsidy efficiency | +RMB 35M | RMB 0.8/order reduction |
-  | C AOV expansion | +RMB 60M | RMB 3.5 AOV increase |
-  | D Fulfillment leverage | +RMB 60M | Density threshold |
-  | **Total** | **+RMB 173.5M** | **-140M → +33M** |
+- 论据（汇总表）：| Engine                 | Contribution          | Calculation             |
+  | ---------------------- | --------------------- | ----------------------- |
+  | A Divestiture          | +RMB 18.5M            | Tail city asset-light   |
+  | B Subsidy efficiency   | +RMB 35M              | RMB 0.8/order reduction |
+  | C AOV expansion        | +RMB 60M              | RMB 3.5 AOV increase    |
+  | D Fulfillment leverage | +RMB 60M              | Density threshold       |
+  | **Total**        | **+RMB 173.5M** | **-140M → +33M** |
 
 ---
 
@@ -753,6 +801,7 @@ format: deck
 **Action Title | 行动主题**: Immediately lock in three decisions—CSO/Board ratification, team KPI re-signing, contraction budget approval.
 
 **Module 1: P0 — Decision Alignment**
+
 - 论点：CSO/Board ratify the "3+3+4" strategy.
 - 论据（决策卡）：
   ```
@@ -763,6 +812,7 @@ format: deck
   ```
 
 **Module 2: P1 — Team Restructuring**
+
 - 论点：Sever "volume-only" KPI system; sign differentiated accountability pacts.
 - 论据（决策卡）：
   ```
@@ -773,6 +823,7 @@ format: deck
   ```
 
 **Module 3: P2 — Capital Allocation**
+
 - 论点：Approve special protection and transition budgets.
 - 论据（决策卡）：
   ```
@@ -789,6 +840,7 @@ format: deck
 **Action Title | 行动主题**: Appendix materials.
 
 **Module 1: Appendix Contents**
+
 - 论点：Four appendix items.
 - 论据（清单）：
   ```
@@ -805,12 +857,14 @@ format: deck
 ## Design Principles Summary
 
 ### Page Structure Principles
+
 - **每页只传达一个核心观点** | Each page conveys one core message.
 - **模块 = 论点 + 论据展示**，紧密耦合 | Module = Argument + Evidence, tightly coupled.
 - **论据形式**：图、表、流程图、数据卡片、对比图等 | Evidence: charts, tables, flowcharts, data cards, comparison charts.
 - **文字精简**：能用图表绝不用文字 | Concise text: use charts wherever possible.
 
 ### Module Standard Structure
+
 ```
 ┌─────────────────────────────────┐
 │  Module N: [Module Topic]       │
@@ -822,14 +876,16 @@ format: deck
 ```
 
 ### Visual Standards
-| Element | Standard |
-|---------|----------|
-| Primary color | Bain Red #E60000 + Black |
-| Typography | Sans-serif, clear hierarchy |
-| One core message | One Action Title per page |
-| Chart-first | Tables, diagrams, data cards |
+
+| Element          | Standard                     |
+| ---------------- | ---------------------------- |
+| Primary color    | Bain Red #E60000 + Black     |
+| Typography       | Sans-serif, clear hierarchy  |
+| One core message | One Action Title per page    |
+| Chart-first      | Tables, diagrams, data cards |
 
 ### Consistency Checklist
+
 - Data source noted on each page.
 - Key figures bolded.
 - Semantic color use (Red = stop/bleed, Green = grow/optimal).
